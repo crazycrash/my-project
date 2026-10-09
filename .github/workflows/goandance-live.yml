@@ -1,0 +1,44 @@
+name: Go&Dance live acquisition
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: goandance-live-acquisition
+  cancel-in-progress: false
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r requirements-goandance.txt
+      - name: Read live pages and preserve cursor
+        id: scrape
+        continue-on-error: true
+        env:
+          PAGES_PER_RUN: "10"
+          DETAILS_PER_RUN: "40"
+          FETCH_DELAY_SECONDS: "1.4"
+        run: python scripts/goandance_acquire.py
+      - name: Commit verified data, cursor and run logs
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/goandance/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update Go&Dance live source crawl"
+            git push
+          fi
+      - name: Mark partial/blocked runs as needing review
+        if: steps.scrape.outcome == 'failure'
+        run: exit 1
