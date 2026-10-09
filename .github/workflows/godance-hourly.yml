@@ -1,0 +1,43 @@
+name: GoDance hourly live acquisition
+
+on:
+  schedule:
+    - cron: '13 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: godance-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install crawler requirements
+        run: pip install -r requirements.txt
+      - name: Crawl live GoDance
+        env:
+          MAX_PAGES_PER_RUN: '60'
+          MAX_DETAILS_PER_RUN: '160'
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GODANCE_SHEET_ID: ${{ secrets.GODANCE_SHEET_ID }}
+        run: python scripts/godance_live.py
+      - name: Persist checkpoint and public source data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/godance/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update GoDance live crawl checkpoint"
+            git push
+          fi
