@@ -1,0 +1,31 @@
+name: Validate scheduled-only repository
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scope:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enforce scheduled-only folder policy
+        shell: bash
+        run: |
+          set -euo pipefail
+          bad=0
+          while IFS= read -r -d '' file; do
+            case "$file" in
+              README.md|REPOSITORY_SCOPE.md|requirements.txt|pyproject.toml|.gitignore|.github/workflows/*|.github/REPOSITORY_SCOPE.md|scripts/*|data/*|config/*|tests/*) ;;
+              *)
+                echo "::error file=$file::Out of scope: My Project only hosts scheduled automations"
+                bad=1
+                ;;
+            esac
+          done < <(git ls-files -z)
+          exit "$bad"
