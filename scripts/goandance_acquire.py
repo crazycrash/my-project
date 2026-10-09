@@ -66,7 +66,7 @@ def card_links(soup, url):
     output = {}
     for a in soup.select("a[href]"):
         href = urljoin(url, a.get("href", ""))
-        match = re.search(r"/(?:en/)?event/(\\d+)(?:/|$|\\?)", urlparse(href).path)
+        match = re.search(r"/(?:en/)?event/(\d+)(?:/|$|\?)", urlparse(href).path)
         if not match: continue
         event_id = match.group(1)
         clean = urlunparse(urlparse(href)._replace(query="", fragment=""))
@@ -86,7 +86,7 @@ def pages_advertised(soup):
                 if x.isdigit() and int(x) < 10000: pages.append(int(x))
         except Exception: continue
     text = soup.get_text(" ", strip=True)
-    m = re.search(r"Page\\s+\\d+\\s+of\\s+(\\d+)", text, re.I)
+    m = re.search(r"Page\s+\d+\s+of\s+(\d+)", text, re.I)
     if m: pages.append(int(m.group(1)) - 1)
     return max([0] + pages)
 
