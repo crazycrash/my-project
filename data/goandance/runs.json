@@ -334,5 +334,89 @@
       "round": 1,
       "updated_utc": "2026-10-10T12:41:56+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-10T17:53:53+00:00",
+    "processed_pages": [
+      {
+        "section": "bachata",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/bachata",
+        "cards": 17,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 2,
+        "url": "https://www.goandance.com/en/events/bachata?page=1",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 3,
+        "url": "https://www.goandance.com/en/events/bachata?page=2",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 4,
+        "url": "https://www.goandance.com/en/events/bachata?page=3",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events/bachata?page=4",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 6,
+        "url": "https://www.goandance.com/en/events/bachata?page=5",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 7,
+        "url": "https://www.goandance.com/en/events/bachata?page=6",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 8,
+        "url": "https://www.goandance.com/en/events/bachata?page=7",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 9,
+        "url": "https://www.goandance.com/en/events/bachata?page=8",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 10,
+        "url": "https://www.goandance.com/en/events/bachata?page=9",
+        "cards": 18,
+        "advertised_last_page": 13
+      }
+    ],
+    "new_event_ids": 0,
+    "total_unique_event_ids": 339,
+    "errors": [],
+    "cursor": {
+      "section_index": 5,
+      "page_index": 10,
+      "round": 1,
+      "updated_utc": "2026-10-10T17:53:53+00:00"
+    }
   }
 ]
