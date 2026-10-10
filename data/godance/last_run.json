@@ -1,13 +1,13 @@
 {
-  "section_index": 1,
-  "page": 12,
+  "section_index": 2,
+  "page": 1,
   "cycle": 1,
-  "section": "/en/events",
-  "last_run": "2026-10-10T07:09:41.231768+00:00",
+  "section": "/en/concerts",
+  "last_run": "2026-10-10T13:46:28.609847+00:00",
   "pages_fetched": 9,
-  "details_fetched": 160,
-  "events_total": 313,
+  "details_fetched": 141,
+  "events_total": 339,
   "status": "PARTIAL",
-  "last_error": "",
+  "last_error": "https://www.goandance.com/en/concerts: pagination unverified",
   "google_sheets": "not_configured"
 }
