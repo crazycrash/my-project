@@ -586,5 +586,89 @@
       "round": 2,
       "updated_utc": "2026-10-11T01:02:48+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-11T07:17:32+00:00",
+    "processed_pages": [
+      {
+        "section": "festivals",
+        "page": 3,
+        "url": "https://www.goandance.com/en/festivals?page=2",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 4,
+        "url": "https://www.goandance.com/en/festivals?page=3",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 5,
+        "url": "https://www.goandance.com/en/festivals?page=4",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 6,
+        "url": "https://www.goandance.com/en/festivals?page=5",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 7,
+        "url": "https://www.goandance.com/en/festivals?page=6",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 8,
+        "url": "https://www.goandance.com/en/festivals?page=7",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 9,
+        "url": "https://www.goandance.com/en/festivals?page=8",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 10,
+        "url": "https://www.goandance.com/en/festivals?page=9",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 11,
+        "url": "https://www.goandance.com/en/festivals?page=10",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 12,
+        "url": "https://www.goandance.com/en/festivals?page=11",
+        "cards": 18,
+        "advertised_last_page": 16
+      }
+    ],
+    "new_event_ids": 0,
+    "total_unique_event_ids": 339,
+    "errors": [],
+    "cursor": {
+      "section_index": 0,
+      "page_index": 12,
+      "round": 2,
+      "updated_utc": "2026-10-11T07:17:32+00:00"
+    }
   }
 ]
