@@ -1006,5 +1006,89 @@
       "round": 2,
       "updated_utc": "2026-10-12T06:08:25+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-12T15:40:54+00:00",
+    "processed_pages": [
+      {
+        "section": "bachata",
+        "page": 13,
+        "url": "https://www.goandance.com/en/events/bachata?page=12",
+        "cards": 14,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "kizomba",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/kizomba",
+        "cards": 17,
+        "advertised_last_page": 6
+      },
+      {
+        "section": "kizomba",
+        "page": 2,
+        "url": "https://www.goandance.com/en/events/kizomba?page=1",
+        "cards": 18,
+        "advertised_last_page": 6
+      },
+      {
+        "section": "kizomba",
+        "page": 3,
+        "url": "https://www.goandance.com/en/events/kizomba?page=2",
+        "cards": 18,
+        "advertised_last_page": 6
+      },
+      {
+        "section": "kizomba",
+        "page": 4,
+        "url": "https://www.goandance.com/en/events/kizomba?page=3",
+        "cards": 18,
+        "advertised_last_page": 6
+      },
+      {
+        "section": "kizomba",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events/kizomba?page=4",
+        "cards": 18,
+        "advertised_last_page": 6
+      },
+      {
+        "section": "kizomba",
+        "page": 6,
+        "url": "https://www.goandance.com/en/events/kizomba?page=5",
+        "cards": 1,
+        "advertised_last_page": 6
+      },
+      {
+        "section": "salsa",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/salsa",
+        "cards": 17,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 2,
+        "url": "https://www.goandance.com/en/events/salsa?page=1",
+        "cards": 18,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 3,
+        "url": "https://www.goandance.com/en/events/salsa?page=2",
+        "cards": 18,
+        "advertised_last_page": 9
+      }
+    ],
+    "new_event_ids": 0,
+    "total_unique_event_ids": 341,
+    "errors": [],
+    "cursor": {
+      "section_index": 7,
+      "page_index": 3,
+      "round": 2,
+      "updated_utc": "2026-10-12T15:40:54+00:00"
+    }
   }
 ]
