@@ -1762,5 +1762,89 @@
       "round": 4,
       "updated_utc": "2026-10-14T15:51:06+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-14T20:14:21+00:00",
+    "processed_pages": [
+      {
+        "section": "festivals",
+        "page": 7,
+        "url": "https://www.goandance.com/en/festivals?page=6",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 8,
+        "url": "https://www.goandance.com/en/festivals?page=7",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 9,
+        "url": "https://www.goandance.com/en/festivals?page=8",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 10,
+        "url": "https://www.goandance.com/en/festivals?page=9",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 11,
+        "url": "https://www.goandance.com/en/festivals?page=10",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 12,
+        "url": "https://www.goandance.com/en/festivals?page=11",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 13,
+        "url": "https://www.goandance.com/en/festivals?page=12",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 14,
+        "url": "https://www.goandance.com/en/festivals?page=13",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 15,
+        "url": "https://www.goandance.com/en/festivals?page=14",
+        "cards": 18,
+        "advertised_last_page": 16
+      },
+      {
+        "section": "festivals",
+        "page": 16,
+        "url": "https://www.goandance.com/en/festivals?page=15",
+        "cards": 3,
+        "advertised_last_page": 16
+      }
+    ],
+    "new_event_ids": 1,
+    "total_unique_event_ids": 347,
+    "errors": [],
+    "cursor": {
+      "section_index": 1,
+      "page_index": 0,
+      "round": 4,
+      "updated_utc": "2026-10-14T20:14:21+00:00"
+    }
   }
 ]
