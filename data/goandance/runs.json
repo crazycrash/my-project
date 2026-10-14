@@ -1510,5 +1510,89 @@
       "round": 3,
       "updated_utc": "2026-10-13T23:45:20+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-14T05:02:05+00:00",
+    "processed_pages": [
+      {
+        "section": "bachata",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events/bachata?page=4",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 6,
+        "url": "https://www.goandance.com/en/events/bachata?page=5",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 7,
+        "url": "https://www.goandance.com/en/events/bachata?page=6",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 8,
+        "url": "https://www.goandance.com/en/events/bachata?page=7",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 9,
+        "url": "https://www.goandance.com/en/events/bachata?page=8",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 10,
+        "url": "https://www.goandance.com/en/events/bachata?page=9",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 11,
+        "url": "https://www.goandance.com/en/events/bachata?page=10",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 12,
+        "url": "https://www.goandance.com/en/events/bachata?page=11",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 13,
+        "url": "https://www.goandance.com/en/events/bachata?page=12",
+        "cards": 13,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "kizomba",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/kizomba",
+        "cards": 17,
+        "advertised_last_page": 6
+      }
+    ],
+    "new_event_ids": 1,
+    "total_unique_event_ids": 346,
+    "errors": [],
+    "cursor": {
+      "section_index": 6,
+      "page_index": 1,
+      "round": 3,
+      "updated_utc": "2026-10-14T05:02:05+00:00"
+    }
   }
 ]
