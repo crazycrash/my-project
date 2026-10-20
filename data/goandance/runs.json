@@ -4366,5 +4366,25 @@
       "round": 8,
       "updated_utc": "2026-10-20T01:54:07+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-20T07:42:33+00:00",
+    "processed_pages": [],
+    "new_event_ids": 0,
+    "total_unique_event_ids": 363,
+    "errors": [
+      {
+        "section": "bachata",
+        "page": 11,
+        "url": "https://www.goandance.com/en/events/bachata?page=10",
+        "error": "HTTPSConnectionPool(host='www.goandance.com', port=443): Read timed out. (read timeout=28)"
+      }
+    ],
+    "cursor": {
+      "section_index": 5,
+      "page_index": 10,
+      "round": 8,
+      "updated_utc": "2026-10-20T01:54:07+00:00"
+    }
   }
 ]
