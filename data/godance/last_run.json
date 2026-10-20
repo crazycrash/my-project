@@ -3,11 +3,11 @@
   "page": 1,
   "cycle": 1,
   "section": "/en/concerts",
-  "last_run": "2026-10-20T07:36:27.767092+00:00",
-  "pages_fetched": 0,
+  "last_run": "2026-10-20T13:34:17.631545+00:00",
+  "pages_fetched": 1,
   "details_fetched": 0,
   "events_total": 339,
   "status": "PARTIAL",
-  "last_error": "https://www.goandance.com/en/concerts: ReadTimeout: HTTPSConnectionPool(host='www.goandance.com', port=443): Read timed out. (read timeout=28)",
+  "last_error": "https://www.goandance.com/en/concerts: pagination unverified",
   "google_sheets": "not_configured"
 }
