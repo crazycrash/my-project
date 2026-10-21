@@ -4806,5 +4806,89 @@
       "round": 9,
       "updated_utc": "2026-10-21T07:47:00+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-21T13:54:52+00:00",
+    "processed_pages": [
+      {
+        "section": "concerts",
+        "page": 1,
+        "url": "https://www.goandance.com/en/concerts",
+        "cards": 7,
+        "advertised_last_page": 1
+      },
+      {
+        "section": "parties",
+        "page": 1,
+        "url": "https://www.goandance.com/en/parties",
+        "cards": 17,
+        "advertised_last_page": 2
+      },
+      {
+        "section": "parties",
+        "page": 2,
+        "url": "https://www.goandance.com/en/parties?page=1",
+        "cards": 7,
+        "advertised_last_page": 2
+      },
+      {
+        "section": "workshops",
+        "page": 1,
+        "url": "https://www.goandance.com/en/workshops",
+        "cards": 17,
+        "advertised_last_page": 2
+      },
+      {
+        "section": "workshops",
+        "page": 2,
+        "url": "https://www.goandance.com/en/workshops?page=1",
+        "cards": 3,
+        "advertised_last_page": 2
+      },
+      {
+        "section": "bachata",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/bachata",
+        "cards": 17,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 2,
+        "url": "https://www.goandance.com/en/events/bachata?page=1",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 3,
+        "url": "https://www.goandance.com/en/events/bachata?page=2",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 4,
+        "url": "https://www.goandance.com/en/events/bachata?page=3",
+        "cards": 18,
+        "advertised_last_page": 13
+      },
+      {
+        "section": "bachata",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events/bachata?page=4",
+        "cards": 18,
+        "advertised_last_page": 13
+      }
+    ],
+    "new_event_ids": 4,
+    "total_unique_event_ids": 370,
+    "errors": [],
+    "cursor": {
+      "section_index": 5,
+      "page_index": 5,
+      "round": 9,
+      "updated_utc": "2026-10-21T13:54:52+00:00"
+    }
   }
 ]
