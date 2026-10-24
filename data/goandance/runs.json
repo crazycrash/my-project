@@ -6066,5 +6066,89 @@
       "round": 11,
       "updated_utc": "2026-10-24T07:23:45+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-24T12:45:33+00:00",
+    "processed_pages": [
+      {
+        "section": "kizomba",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/kizomba",
+        "cards": 17,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "kizomba",
+        "page": 2,
+        "url": "https://www.goandance.com/en/events/kizomba?page=1",
+        "cards": 18,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "kizomba",
+        "page": 3,
+        "url": "https://www.goandance.com/en/events/kizomba?page=2",
+        "cards": 18,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "kizomba",
+        "page": 4,
+        "url": "https://www.goandance.com/en/events/kizomba?page=3",
+        "cards": 18,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "kizomba",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events/kizomba?page=4",
+        "cards": 14,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "salsa",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/salsa",
+        "cards": 17,
+        "advertised_last_page": 10
+      },
+      {
+        "section": "salsa",
+        "page": 2,
+        "url": "https://www.goandance.com/en/events/salsa?page=1",
+        "cards": 18,
+        "advertised_last_page": 10
+      },
+      {
+        "section": "salsa",
+        "page": 3,
+        "url": "https://www.goandance.com/en/events/salsa?page=2",
+        "cards": 18,
+        "advertised_last_page": 10
+      },
+      {
+        "section": "salsa",
+        "page": 4,
+        "url": "https://www.goandance.com/en/events/salsa?page=3",
+        "cards": 18,
+        "advertised_last_page": 10
+      },
+      {
+        "section": "salsa",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events/salsa?page=4",
+        "cards": 18,
+        "advertised_last_page": 10
+      }
+    ],
+    "new_event_ids": 0,
+    "total_unique_event_ids": 376,
+    "errors": [],
+    "cursor": {
+      "section_index": 7,
+      "page_index": 5,
+      "round": 11,
+      "updated_utc": "2026-10-24T12:45:33+00:00"
+    }
   }
 ]
