@@ -7410,5 +7410,89 @@
       "round": 14,
       "updated_utc": "2026-10-27T06:23:23+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-27T13:20:22+00:00",
+    "processed_pages": [
+      {
+        "section": "events",
+        "page": 2,
+        "url": "https://www.goandance.com/en/events?page=1",
+        "cards": 18,
+        "advertised_last_page": 18
+      },
+      {
+        "section": "events",
+        "page": 3,
+        "url": "https://www.goandance.com/en/events?page=2",
+        "cards": 18,
+        "advertised_last_page": 18
+      },
+      {
+        "section": "events",
+        "page": 4,
+        "url": "https://www.goandance.com/en/events?page=3",
+        "cards": 18,
+        "advertised_last_page": 18
+      },
+      {
+        "section": "events",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events?page=4",
+        "cards": 18,
+        "advertised_last_page": 18
+      },
+      {
+        "section": "events",
+        "page": 6,
+        "url": "https://www.goandance.com/en/events?page=5",
+        "cards": 18,
+        "advertised_last_page": 18
+      },
+      {
+        "section": "events",
+        "page": 7,
+        "url": "https://www.goandance.com/en/events?page=6",
+        "cards": 18,
+        "advertised_last_page": 18
+      },
+      {
+        "section": "events",
+        "page": 8,
+        "url": "https://www.goandance.com/en/events?page=7",
+        "cards": 18,
+        "advertised_last_page": 18
+      },
+      {
+        "section": "events",
+        "page": 9,
+        "url": "https://www.goandance.com/en/events?page=8",
+        "cards": 18,
+        "advertised_last_page": 18
+      },
+      {
+        "section": "events",
+        "page": 10,
+        "url": "https://www.goandance.com/en/events?page=9",
+        "cards": 18,
+        "advertised_last_page": 18
+      },
+      {
+        "section": "events",
+        "page": 11,
+        "url": "https://www.goandance.com/en/events?page=10",
+        "cards": 18,
+        "advertised_last_page": 18
+      }
+    ],
+    "new_event_ids": 2,
+    "total_unique_event_ids": 384,
+    "errors": [],
+    "cursor": {
+      "section_index": 1,
+      "page_index": 11,
+      "round": 14,
+      "updated_utc": "2026-10-27T13:20:22+00:00"
+    }
   }
 ]
