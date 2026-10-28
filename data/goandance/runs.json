@@ -7662,5 +7662,89 @@
       "round": 14,
       "updated_utc": "2026-10-27T23:49:48+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-28T05:53:14+00:00",
+    "processed_pages": [
+      {
+        "section": "bachata",
+        "page": 9,
+        "url": "https://www.goandance.com/en/events/bachata?page=8",
+        "cards": 18,
+        "advertised_last_page": 12
+      },
+      {
+        "section": "bachata",
+        "page": 10,
+        "url": "https://www.goandance.com/en/events/bachata?page=9",
+        "cards": 18,
+        "advertised_last_page": 12
+      },
+      {
+        "section": "bachata",
+        "page": 11,
+        "url": "https://www.goandance.com/en/events/bachata?page=10",
+        "cards": 18,
+        "advertised_last_page": 12
+      },
+      {
+        "section": "bachata",
+        "page": 12,
+        "url": "https://www.goandance.com/en/events/bachata?page=11",
+        "cards": 16,
+        "advertised_last_page": 12
+      },
+      {
+        "section": "kizomba",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/kizomba",
+        "cards": 17,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "kizomba",
+        "page": 2,
+        "url": "https://www.goandance.com/en/events/kizomba?page=1",
+        "cards": 18,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "kizomba",
+        "page": 3,
+        "url": "https://www.goandance.com/en/events/kizomba?page=2",
+        "cards": 18,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "kizomba",
+        "page": 4,
+        "url": "https://www.goandance.com/en/events/kizomba?page=3",
+        "cards": 18,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "kizomba",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events/kizomba?page=4",
+        "cards": 7,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "salsa",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/salsa",
+        "cards": 17,
+        "advertised_last_page": 9
+      }
+    ],
+    "new_event_ids": 0,
+    "total_unique_event_ids": 387,
+    "errors": [],
+    "cursor": {
+      "section_index": 7,
+      "page_index": 1,
+      "round": 14,
+      "updated_utc": "2026-10-28T05:53:14+00:00"
+    }
   }
 ]
