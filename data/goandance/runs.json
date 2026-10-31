@@ -8838,5 +8838,89 @@
       "round": 16,
       "updated_utc": "2026-10-31T09:46:57+00:00"
     }
+  },
+  {
+    "timestamp_utc": "2026-10-31T15:46:37+00:00",
+    "processed_pages": [
+      {
+        "section": "kizomba",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events/kizomba?page=4",
+        "cards": 9,
+        "advertised_last_page": 5
+      },
+      {
+        "section": "salsa",
+        "page": 1,
+        "url": "https://www.goandance.com/en/events/salsa",
+        "cards": 17,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 2,
+        "url": "https://www.goandance.com/en/events/salsa?page=1",
+        "cards": 18,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 3,
+        "url": "https://www.goandance.com/en/events/salsa?page=2",
+        "cards": 18,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 4,
+        "url": "https://www.goandance.com/en/events/salsa?page=3",
+        "cards": 18,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 5,
+        "url": "https://www.goandance.com/en/events/salsa?page=4",
+        "cards": 18,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 6,
+        "url": "https://www.goandance.com/en/events/salsa?page=5",
+        "cards": 18,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 7,
+        "url": "https://www.goandance.com/en/events/salsa?page=6",
+        "cards": 18,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 8,
+        "url": "https://www.goandance.com/en/events/salsa?page=7",
+        "cards": 18,
+        "advertised_last_page": 9
+      },
+      {
+        "section": "salsa",
+        "page": 9,
+        "url": "https://www.goandance.com/en/events/salsa?page=8",
+        "cards": 6,
+        "advertised_last_page": 9
+      }
+    ],
+    "new_event_ids": 0,
+    "total_unique_event_ids": 404,
+    "errors": [],
+    "cursor": {
+      "section_index": 0,
+      "page_index": 0,
+      "round": 17,
+      "updated_utc": "2026-10-31T15:46:37+00:00"
+    }
   }
 ]
